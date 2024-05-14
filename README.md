@@ -1,4 +1,4 @@
-# Logistic Regression Optimization with Gradient and Coordinate Descent
+# Logistic Regression Optimization with Coordinate Descent
 
 This project demonstrates the implementation and comparison of gradient descent and coordinate descent algorithms to optimize logistic regression for binary classification. The project includes detailed methodology, mathematical formulations, and visualizations.
 
