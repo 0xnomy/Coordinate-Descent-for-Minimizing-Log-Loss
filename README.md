@@ -1,7 +1,3 @@
-Sure, here's a concise and comprehensive GitHub README file for your project:
-
----
-
 # Logistic Regression Optimization with Gradient and Coordinate Descent
 
 This project demonstrates the implementation and comparison of gradient descent and coordinate descent algorithms to optimize logistic regression for binary classification. The project includes detailed methodology, mathematical formulations, and visualizations.
@@ -16,7 +12,6 @@ This project demonstrates the implementation and comparison of gradient descent 
 - [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 This project is part of the Complex Engineering Problems (CEP) for the DS221 Inferential Statistics course at the GIK Institute, taught by Dr. Babar Zaman. The goal is to optimize the logistic regression model using both gradient descent and coordinate descent algorithms.
@@ -24,15 +19,8 @@ This project is part of the Complex Engineering Problems (CEP) for the DS221 Inf
 ## Methodology
 The cross-entropy loss function \( L(w) \) is minimized using gradient and coordinate descent methods. The mathematical formulations and gradients are defined as follows:
 
-\[
-L(w) = -\frac{1}{n}\sum_{i=1}^{n} y_{i} \log \hat{y}_{i} + (1 - y_{i}) \log(1 - \hat{y}_{i})
-\]
+![Screenshot 2024-05-14 172941](https://github.com/0xnomy/Coordinate-Descent-for-Minimizing-Log-Loss/assets/63780923/d8f28781-ef05-4239-b75c-b6bdb06b1ff9)
 
-Gradient with respect to each weight \( w_{j} \):
-
-\[
-\frac{\partial L(w)}{\partial w_{j}} = \sum_{i=1}^{n}(\hat{y}_{i} - y_{i})x_{j}
-\]
 
 ## Feature Engineering
 - Dropped irrelevant columns and separated the target variable.
